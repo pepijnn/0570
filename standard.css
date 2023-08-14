@@ -12,7 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   flex-wrap: wrap; /* Laat knoppen naar volgende regel gaan */
-  gap: 20px; /* Ruimte tussen de knoppen */
+  gap: 5px; /* Ruimte tussen de knoppen */
 }
 
 .knop {
