@@ -11,15 +11,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  flex-direction: column;
+  flex-wrap: wrap; /* Laat knoppen naar volgende regel gaan */
+  gap: 20px; /* Ruimte tussen de knoppen */
 }
 
 .knop {
-  display: flex;
-  flex: 1;
-  max-width: 300px; /* Maximale breedte van een knop */
-  padding: 20px;
-  margin: 10px;
+  flex: 1; /* Verdeel beschikbare ruimte gelijkmatig */
+  max-width: 400px; /* Maximale breedte van een knop */
+  padding: 30px;
   background-color: black;
   color: red;
   text-decoration: none;
