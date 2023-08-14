@@ -10,14 +10,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 1000vh;
   flex-direction: column;
 }
 
 .knop {
   display: inline-block;
-  padding: 30px;
-  margin: 20px;
+  padding: 300px;
+  margin: 200px;
   background-color: black;
   color: red;
   text-decoration: none;
