@@ -9,11 +9,12 @@ body {
 .knoppen {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ruimte tussen knoppen */
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
-  padding: 10px; /* Ruimte rond de knoppen */
-  box-sizing: border-box; /* Zorg ervoor dat padding niet van hoogte wordt afgetrokken */
+  max-height: 100vh; /* Maximale hoogte van de container */
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .knop {
@@ -27,7 +28,7 @@ body {
   transition: background-color 0.3s, color 0.3s;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px; /* Ruimte tussen knoppen */
+  margin-bottom: 10px;
 }
 
 .knop.clicked {
