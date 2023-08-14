@@ -22,7 +22,7 @@ body {
   background-color: black;
   color: red;
   text-decoration: none;
-  border: 2px solid black;
+  border: 2px solid red;
   border-radius: 10px;
   transition: background-color 0.3s, color 0.3s;
   font-size: 200px;
