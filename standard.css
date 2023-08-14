@@ -8,17 +8,16 @@ body {
 
 .knoppen {
   display: flex;
+  flex-direction: column; /* Verander de richting naar kolom */
   justify-content: center;
   align-items: center;
   height: 100vh;
-  flex-wrap: wrap;
   gap: 20px;
 }
 
 .knop {
-  flex: 1;
-  max-width: 100%; /* Knop vult de volledige beschikbare breedte */
-  padding: 5% 10%; /* Hier kun je padding proportioneel aanpassen */
+  width: 100%; /* Knop vult volledige breedte van container */
+  padding: 5% 10%;
   background-color: black;
   color: red;
   text-decoration: none;
