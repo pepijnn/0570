@@ -10,22 +10,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
-  flex-wrap: wrap; /* Laat knoppen naar volgende regel gaan */
-  gap: 5px; /* Ruimte tussen de knoppen */
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .knop {
-  flex: 1; /* Verdeel beschikbare ruimte gelijkmatig */
-  max-width: 40px; /* Maximale breedte van een knop */
-  padding: 30px;
+  flex: 1;
+  max-width: 100%; /* Knop vult de volledige beschikbare breedte */
+  padding: 5% 10%; /* Hier kun je padding proportioneel aanpassen */
   background-color: black;
   color: red;
   text-decoration: none;
-  border: 2px solid red;
+  border: 2px solid black;
   border-radius: 10px;
   transition: background-color 0.3s, color 0.3s;
-  font-size: 200px;
+  font-size: 18px;
   font-weight: bold;
 }
 
