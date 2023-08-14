@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 10vh;
   flex-wrap: wrap; /* Laat knoppen naar volgende regel gaan */
   gap: 5px; /* Ruimte tussen de knoppen */
 }
