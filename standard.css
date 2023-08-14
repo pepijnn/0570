@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  max-height: 100vh; /* Maximale hoogte van de container */
+  max-height: 100vh;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -26,8 +26,11 @@ body {
   border: 2px solid black;
   border-radius: 10px;
   transition: background-color 0.3s, color 0.3s;
-  font-size: 18px;
+  font-size: calc(1vw + 1vh); /* Aangepaste tekstgrootte op basis van apparaatbreedte en -hoogte */
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
