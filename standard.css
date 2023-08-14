@@ -10,22 +10,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1000vh;
+  height: 100vh;
   flex-direction: column;
 }
 
 .knop {
-  display: inline-block;
-  padding: 300px;
-  margin: 200px;
+  display: flex;
+  flex: 1;
+  max-width: 300px; /* Maximale breedte van een knop */
+  padding: 20px;
+  margin: 10px;
   background-color: black;
   color: red;
   text-decoration: none;
   border: 2px solid black;
   border-radius: 10px;
   transition: background-color 0.3s, color 0.3s;
-  font-size: 18px; /* Aangepaste tekstgrootte */
-  font-weight: bold; /* Vetgedrukte tekst */
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .knop.clicked {
