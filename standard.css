@@ -23,7 +23,7 @@ body {
 
 .knop {
   flex: 1;
-  width: 100%;
+  width: 90%;
   background-color: black;
   color: red;
   text-decoration: none;
